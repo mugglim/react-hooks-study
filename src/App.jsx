@@ -1,5 +1,6 @@
 import React from "react";
+import Page from "./Page/Page";
 
 export default function App() {
-  return <div>This is App Component</div>;
+  return <Page width={900} />;
 }
